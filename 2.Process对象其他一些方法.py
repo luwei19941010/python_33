@@ -12,6 +12,7 @@ def son1():
 if __name__=='__main__':
     p=Process(target=son1)
     p.start()
+
     print(1123)
     print(p.is_alive())
     time.sleep(2)
